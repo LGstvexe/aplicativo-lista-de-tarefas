@@ -43,7 +43,7 @@ $password = ""; // Sua senha
 
 ## Execução do Projeto
 
-1. No terminal, dentro do diretorio do projeto, execute o servidor embutido do PHP:
+1. No terminal, dentro do diretório do projeto, execute o servidor embutido do PHP:
 
 ```
 php -S localhost:8000
