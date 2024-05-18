@@ -1,0 +1,199 @@
+/* Geral */
+* {
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+ color: #333;
+ box-sizing: border-box;
+}
+
+body {
+ /* Define a imagem do fundo, um .gif localizado em /assets */
+ background-image: url(../assets/background-gif.gif);
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+/* Estilo para os botões em geral */
+button {
+ color: #111f89;
+ /* Cor do texto */
+ border: 2px solid #111f89;
+ /* Borda */
+ padding: .3rem .6rem;
+ /* Espaçamento Interno */
+ font-size: 1rem;
+ /* Tamanho da Fonte */
+ cursor: pointer;
+ /* Cursos ao passar por cima */
+ display: flex;
+ justify-content: center;
+ /* Alinhamento Horizontal */
+ align-items: center;
+ /* Alinhamento Vertical */
+ transition: .4s;
+ /* Tempo de Transição */
+}
+
+/* Reação dos botões ao passar o cursor por cima*/
+button:hover {
+ background-color: #111f89;
+ color: #fff;
+}
+
+/* Reação dos ícones ao passar o cursos por cima */
+button:hover>i {
+ color: #fff;
+}
+
+/* Estilização dos ícones dos botões */
+button i {
+ color: #081448;
+ /* Cor do ícone */
+ font-weight: bold;
+ /* Peso da fonte */
+ pointer-events: none;
+ /* Desabilita eventos de ponteiro */
+}
+
+/* Estilos para Inputs */
+input {
+ padding: .25rem .5rem;
+ /* Espaçamento Interno */
+}
+
+/* Classe para Esconder Elementos */
+.hide {
+ display: none;
+}
+
+/* Container da Lista de Tarefas */
+.container {
+ max-width: 450px;
+ /* Largura Máxima */
+ margin: 10rem auto;
+ /* Margem */
+ background-color: #fdfdfd;
+ /* Cor de Fundo */
+ padding: 1.rem;
+ /* Espaçamento Interno */
+ border: 5px solid #061372;
+ /* Borda */
+ border-radius: 20px;
+ /* Raio da Borda */
+}
+
+.container header {
+ text-align: center;
+ /* Alinhamento do texto */
+ padding: 1rem 1rem 1.5rem;
+ /* Espaçamento interno */
+ border-bottom: 2px solid #061372;
+ /* Borda inferior */
+}
+
+/* Formulário de Tarefas */
+#todo-form,
+.edit-form {
+ padding: 1rem;
+ border-bottom: 2px solid #061372;
+}
+
+#todo-form p,
+.edit-form p {
+ margin-bottom: .5rem;
+ font-weight: bold;
+}
+
+.control-form {
+ display: flex;
+}
+
+.control-form input {
+ margin-right: .5rem;
+}
+
+#cancel-edit-btn {
+ margin-top: 1rem;
+}
+
+/* Barra de Pesquisa */
+#searchbar {
+ padding: .5rem;
+ border-bottom: 2px solid #061372;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#searchbar h4 {
+ margin-bottom: .5rem;
+}
+
+#search {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: .5rem;
+}
+
+#search form {
+ display: flex;
+}
+
+#search input {
+ width: 100%;
+ margin-right: .5rem;
+}
+
+/* Lista de Tarefas */
+
+.todo {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+ border-bottom: 2px solid #061372;
+ transition: .3s;
+}
+
+.todo h3 {
+ flex: 1;
+ /* Expandir */
+ font-size: 1rem;
+}
+
+.todo button {
+ margin-left: .5rem;
+}
+
+/* Cor do fundo para o botão de completar tarefa */
+.finish-todo {
+ background-color: #0c9613;
+}
+
+/* Cor do fundo para o botão de remover tarefa */
+.remove-todo {
+ background-color: #960c0c;
+}
+
+.finish-todo>i,
+.remove-todo>i {
+ color: #fdfdfd;
+}
+
+.done {
+ background-color: #061372;
+ color: #fdfdfd;
+ font-style: italic;
+ transition: 0.4s
+}
+
+.done h3 {
+ color: #fdfdfd;
+ text-decoration: line-through;
+}
+
+.done p {
+ color: #fdfdfd;
+}
