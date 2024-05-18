@@ -26,13 +26,17 @@ $git clone https://github.com/LGstvexe/aplicativo-lista-de-tarefas
 $cd seu-repositorio
 ```
 
-4. **Utilize um terminal e importe a estrutura do banco de dados a partir do arquivo 'sql/database.sql':** \*_OBS: Substitua 'username' pelo seu nome de usuário do MySQL._
+4. **Utilize um terminal e importe a estrutura do banco de dados a partir do arquivo 'sql/database.sql':**
+
+\*_OBS: Substitua 'username' pelo seu nome de usuário do MySQL._
 
 ```
 mysql -u username -p tarefas < sql/database.sql
 ```
 
-5. **Configure a conexão com o banco de dados no arquivo 'database/conn.php'**: \*_OBS: Insira o nome de usuário ($username) e senha ($password) do MySQL._
+5. **Configure a conexão com o banco de dados no arquivo 'database/conn.php'**:
+  
+\*_OBS: Insira o nome de usuário ($username) e senha ($password) do MySQL._
 
 ```
 $hostname = "localhost";
