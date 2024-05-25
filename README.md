@@ -30,7 +30,11 @@ mysql -u username -p < sql/database.sql
 ```
 
 4. **Configure a conexão com o banco de dados no arquivo 'database/conn.php'**:
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 463b39b734d5bab4c81a97d7f490aa8a95710852
 \*_OBS: Insira o nome de usuário ($username) e senha ($password) do MySQL._
 
 ```
