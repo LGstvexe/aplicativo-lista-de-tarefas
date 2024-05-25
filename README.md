@@ -64,4 +64,4 @@ http://localhost:8000
 
 ## Possíveis Erros
 
-1. É possível que o comando `mysql -u username -p < sql/database.sql` não seja reconhecido como um comando no terminal. Caso ocorra, verifique se o MySQL está no "Path" (Nas variáveis de ambiente do sistema).
+1. É possível que o comando `mysql -u username -p < sql/database.sql` não seja reconhecido como um comando no terminal. Caso ocorra, verifique se o MySQL está no "Path" (Nas variáveis de ambiente do sistema). É possível que o mesmo erro ocorra com o PHP.
