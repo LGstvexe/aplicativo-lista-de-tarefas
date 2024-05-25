@@ -9,24 +9,19 @@ Projeto simples de uma Lista de Tarefas utilizando: HTML, CSS, Javascript, MySQL
 
 ## Configuração do Ambiente
 
-1. **Pré -Requisitos:**
-
-- PHP 7.x ou Superior
-- MySQL
-
-2. **Clone o repositório**
+1. **Clone o repositório**
 
 ```
 $git clone https://github.com/LGstvexe/aplicativo-lista-de-tarefas
 ```
 
-3. **Navegue até o diretorio**
+2. **Navegue até o diretorio**
 
 ```
 $cd seu-repositorio
 ```
 
-4. **Utilize um terminal e importe a estrutura do banco de dados a partir do arquivo 'sql/database.sql':**
+3. **Utilize um terminal e importe a estrutura do banco de dados a partir do arquivo 'sql/database.sql':**
 
 \*_OBS: Substitua 'username' pelo seu nome de usuário do MySQL._
 
@@ -34,7 +29,7 @@ $cd seu-repositorio
 mysql -u username -p tarefas < sql/database.sql
 ```
 
-5. **Configure a conexão com o banco de dados no arquivo 'database/conn.php'**:
+4. **Configure a conexão com o banco de dados no arquivo 'database/conn.php'**:
   
 \*_OBS: Insira o nome de usuário ($username) e senha ($password) do MySQL._
 
